@@ -1,0 +1,102 @@
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+        .container {
+            padding: 20px;
+            border-radius: 10pt;
+            position: fixed;
+            width: 1000px;
+            overflow: scroll;
+            top: 10px;
+            left: 10px;
+        }
+        .white-key {
+            position: relative;
+            height: 230px;
+            margin-right: 5px;
+            float: left;
+            background-color: #eeeeee;
+            width: 50px;
+            z-index: 0;
+            box-shadow: 2px 2px 8px #444444;
+            border: 2px #cccccc solid;
+            border-bottom-left-radius: 2pt;
+            border-bottom-right-radius: 2pt;
+        }
+        .white-key:hover {
+            position: relative;
+            height: 230px;
+            margin-right: 5px;
+            float: left;
+            background-image: linear-gradient(#cccccc, #cccccc, #cccccc, #cccccc, #888888);
+            width: 50px;
+            z-index: 0;
+            box-shadow: 2px 2px 8px #444444;
+            border: 2px #cccccc solid;
+            border-bottom-left-radius: 2pt;
+            border-bottom-right-radius: 2pt;
+        }
+        .black-key {
+            box-shadow: 2px 2px 8px #444444;
+            border: 2px #000000 solid;
+            border-bottom-left-radius: 2pt;
+            border-bottom-right-radius: 2pt;
+            position: relative;
+            z-index: 9;
+            width: 40px;
+            height: 150px;
+            float: left;
+            margin-right: 20px;
+            background-color: #222222;
+        }
+        .black-key:hover {
+            box-shadow: 2px 2px 8px #444444;
+            border: 2px #000000 solid;
+            border-bottom-left-radius: 2pt;
+            border-bottom-right-radius: 2pt;
+            position: relative;
+            z-index: 9;
+            width: 40px;
+            height: 150px;
+            float: left;
+            margin-right: 20px;
+            background-image: linear-gradient(#555555, #000000)
+        }
+        .black-key-3s {
+            margin-left: 50px;
+            box-shadow: 2px 2px 8px #444444;
+            border: 2px #000000 solid;
+            border-bottom-left-radius: 2pt;
+            border-bottom-right-radius: 2pt;
+            position: relative;
+            z-index: 9;
+            width: 40px;
+            height: 150px;
+            float: left;
+            margin-right: 20px;
+            background-color: #222222;
+        }
+        .black-key-3s:hover {
+            margin-left: 50px;
+            box-shadow: 2px 2px 8px #444444;
+            border: 2px #000000 solid;
+            border-bottom-left-radius: 2pt;
+            border-bottom-right-radius: 2pt;
+            position: relative;
+            z-index: 9;
+            width: 40px;
+            height: 150px;
+            float: left;
+            margin-right: 20px;
+            background-image: linear-gradient(#555555, #000000);
+        }
+        .set-white {
+            width: 1000px;
+            position: relative;
+        }
+        .set-black {
+            width: 1000px;
+            padding-left: 25px;
+            position: fixed;
+        }
